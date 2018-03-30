@@ -1,0 +1,10 @@
+.env
+vendor/*
+config.json
+composer.phar
+composer.lock
+data/
+doc/
+
+
+autotune.json

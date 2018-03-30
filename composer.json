@@ -1,0 +1,30 @@
+{
+    "name": "linkorb/sense4baby-client",
+    "description": "Sense4Baby client for PHP",
+    "keywords": ["sense4baby", "ctg", "linkorb"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@onatal.nl",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "e-mail": "support@linkorb.com",
+        "issues": "https://github.com/linkorb/sense4baby-client-php"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^5.0|^6.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "~2.0"
+    },
+    "bin": ["bin/sense4baby"],
+    "autoload": {
+        "psr-4": {
+            "Sense4Baby\\": "src/"
+        }
+    }
+}
