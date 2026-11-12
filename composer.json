@@ -19,7 +19,8 @@
         "guzzlehttp/guzzle": "^5.0|^6.0"
     },
     "require-dev": {
-        "vlucas/phpdotenv": "~2.0"
+        "vlucas/phpdotenv": "~2.0",
+        "phpunit/phpunit": "^9.6"
     },
     "bin": ["bin/sense4baby"],
     "autoload": {
